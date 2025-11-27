@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="flex items-center justify-between px-6 py-4 bg-white shadow">
+    <h1 class="text-2xl font-bold text-blue-600">MyBrand</h1>
+    <ul class="hidden md:flex gap-6 text-gray-700 font-medium">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <button class="md:hidden text-2xl">☰</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="px-6 py-20 text-center bg-white">
+    <h2 class="text-4xl font-bold text-gray-800 md:text-6xl">Build Modern Websites</h2>
+    <p class="mt-4 text-gray-600 max-w-xl mx-auto">
+      Create fast, responsive websites using Tailwind CSS. Clean, modern and flexible.
+    </p>
+    <div class="mt-8">
+      <button class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700">
+        Get Started
+      </button>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="grid gap-8 p-10 md:grid-cols-3">
+    
+    <div class=" p-6 bg-white shadow rounded-xl">
+      <h3 class="text-xl font-semibold mb-2">Fast Development</h3>
+    
+      <p class=" text-gray-600">Tailwind makes styling faster and easier.</p>
+    </div>
+    <div class="p-6 bg-white shadow rounded-xl">
+      <h3 class="text-xl font-semibold mb-2">Responsive</h3>
+      <p class="text-gray-600">Mobile-first design built in.</p>
+    </div>
+    <div class="p-6 bg-white shadow rounded-xl">
+      <h3 class="text-xl font-semibold mb-2">Utility Classes</h3>
+      <p class="text-gray-600">Style everything without writing CSS.</p>
+    </div>
+</div>
+  </section>
+
+</body>
+</html>
